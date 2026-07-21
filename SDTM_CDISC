@@ -86,10 +86,15 @@ Variables SDTM
     2- TOPIC VARIABLE: Contain the focus of the observation. Therefore this variables 
 are the primary difference in what separates the individual observation classes
             Examples_: --TRT, --TERM, --TESTCD
-    3- QUALIFIER: 
+    3- QUALIFIER: Providing additional information about the topic. They can be use to qualify 
+the other variables whithin the record such as the results or the topic, or 
+they can qualify the entire record. 
             Examples_: GROUPING, RESULT, SYNONYM, RECORD, VARIABLE
-    4- TIMING VARIABLE
-            Examples_: 
+    4- TIMING VARIABLE: Describe aspects of the timing of the observation 
+            Examples_: DATE/TIMES, STUDY DAYs, DURATIONS, INTERVALS, VISITS, TIME POINTS, RELATIVE TIMES 
 
 
+#################################################################################
+SDTM implementation for Human Clinical Trials. 
+#################################################################################
 
