@@ -1,0 +1,73 @@
+Developed by CDISC (Clinical Data Interchange Standards Consortium)
+
+SDTM is one of the required standards for data submission to FDA (U.S.) and PMDA (Japan).
+
+The Study Data Tabulation Model (SDTM) provides a standard for organizing and formatting data to streamline processes in 
+collection, management, analysis and reporting. Implementing SDTM supports data aggregation and warehousing; fosters mining and reuse; 
+facilitates sharing; helps perform due diligence and other important data review activities; and improves the regulatory review and approval process. 
+
+SDTM is also used in non-clinical data (SEND), medical devices and pharmacogenomics/genetics studies. SDTM is one of the required 
+standards for data submission to FDA (U.S.) and PMDA (Japan).
+
+SDTM Theory and Application (Virtual | Microsoft Teams)
+https://learnstore.cdisc.org/product?catalog=SDTMTAHCTED2
+
+The Study Data Tabulation Model (SDTM) is a specification for structuring pre-clinical and clinical data to support interoperable 
+and reusable data sharing, including submissions to the U.S. Food and Drug Administration (FDA) and Japan’s Pharmaceutical and Medical 
+Devices Agency (PMDA) in support of marketing applications.
+
+https://www.youtube.com/watch?v=qQLi-RFM9P4
+
+    -Describe the SDTM model and implementation guide and the relationships between them.
+    -Model timing variables correctly for relative, actual, planned and time point data
+    -Identify Findings About candidate data and model them correctly
+    -Construct accurate relationship datasets for non-standard variables and linkages across datasets
+
+A data model respresent a real world situation about which a database of collected data 
+can be structured. 
+In our case the data model represent a trial or research study. 
+The model organizes elements of data and standarizes how these elements relate to one or another
+and includes properties of the real world entities. 
+It is important to understand that the sdtm is the overaching model from which multiple 
+implementations are based. 
+
+For example the nonclinical sample SENDIG,  the clinical SDTMIG, and the MEDICAL DEVICES, and 
+the terapeutic area user guides (TAUGs)
+
+
+The SDTM model define the structure for all data or research data regardless 
+of how it was collected. 
+
+OBSERVATION CLASS
+  Highlevel grouping loosely based on the topic being represented by the data
+
+SDTM : 3 GENERAL OBSERVATION CLASSES
+  1- Interventions
+  2- Events
+  3- Findings
+This observation classes  are define in a model by the set of variables available 
+whithin each that are used to represent the data around the concepts inherent to that class. 
+Most data can fit into one of this 3 classes. 
+
+For example: 
+  1- Interventions: Concomital medications, Exposure, Substance use.
+  2- Events: Adverse event, Disposition, Medical History, Protocol Deviation, Clinical Event
+  3- Findings: ECG, Incl\Escl, Labs, Physical Exam, Pharmacokinetics concentrations, 
+Mycrobiology specimen, Questionnaire, SubjChar, Vital Sign, Drug Accountability, 
+Pharmacokinetics parameters, Microbiology Susceptibility. 
+
+There are also, other SPECIAL PURPOSE DATASETS, such as Demographics, Comments, 
+Subject elements (age, Gender, Weigth, Race..), Subject Visits, Familiar antecedents.
+They are SPECIFIC STANDARIZED STRUCTURES for representing additional information, that 
+would not otherwise fit into the general observation classes. 
+
+
+https://www.youtube.com/watch?v=mI2jLx-ZEWE
+INTRODUCTION OF SDTM Implementation Guide
+
+https://www.youtube.com/watch?v=mI2jLx-ZEWE
+Introduction to SEND Implementation Guide
+
+
+
+
