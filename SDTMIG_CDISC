@@ -29,7 +29,15 @@ DOMAINS has 3 components_:
                             The set of variables available can be found in 
                             https://www.cdisc.org/standards/foundational/sdtm
                             https://www.cdisc.org/standards/foundational/sdtmig/sdtmig-v3-4
-                           All domains are describe in a domain table.  
+                           All domains are describe in a domain table.
+                            Each column show
+                                    the variable,
+                                    label
+                                    data type
+                                    Control terminology
+                                    Role
+                                    CDISC notes
+                                    Core (say if variables is Required, expected or permissible)  
  2- ASSUMPTIONS Are listed below each domain specification table, and provide the definition of the domain, 
                             and how it is used. May provide further instructions on which concept should
                             or should not be represented in the domain. Also may provide direction of
