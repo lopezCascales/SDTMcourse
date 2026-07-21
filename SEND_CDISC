@@ -1,4 +1,14 @@
 #################################################################################
-SDTM implementation for NON CLINICAL DATA. (SEND)
+SDTM implementation for NON CLINICAL DATA. (SENDIG)
 #################################################################################
+Standard for exchange non clinical data implementation 
 
+SENDIG is based on SDTM
+Non clinical studies: Studies with  non involved human subjects. 
+Usually to test a drug, procedure, or treatment in animals. 
+With the goal of assesing safety 
+
+Non clinical studies are often require before clinical trials in humans can be started. 
+
+ORGANIZATION; STRUCTURe and FORMAT
+#################################################################################
