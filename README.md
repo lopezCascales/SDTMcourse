@@ -1,3 +1,5 @@
+https://www.youtube.com/@CDISCInc
+
 Developed by CDISC (Clinical Data Interchange Standards Consortium)
 
 SDTM is one of the required standards for data submission to FDA (U.S.) and PMDA (Japan).
