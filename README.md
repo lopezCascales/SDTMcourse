@@ -8,7 +8,7 @@ facilitates sharing; helps perform due diligence and other important data review
 
 
 https://www.youtube.com/watch?v=mI2jLx-ZEWE
-INTRODUCTION OF SDTM Implementation Guide
+Introduction to SDTM Implementation Guide
 
 https://www.youtube.com/watch?v=mI2jLx-ZEWE
 Introduction to SEND Implementation Guide
