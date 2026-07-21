@@ -94,34 +94,5 @@ they can qualify the entire record.
             Examples_: DATE/TIMES, STUDY DAYs, DURATIONS, INTERVALS, VISITS, TIME POINTS, RELATIVE TIMES 
 
 
-#################################################################################
-SDTM implementation for Human Clinical Trials. (SDTMIG)
-#################################################################################
-ORGANIZATION, STRUCTURE, and FORMAT of STANDARD CLINICAL STUDY TABULATION. 
-For INTERCHANGE between organizations
-or to be SUBMITTED to a regulatory authority 
 
-SDTM + SDTMIG serves as a map that orients you on how your data FITS into the standard. 
-
-SDTM : 3 GENERAL OBSERVATION CLASSES
-  1- Interventions
-  2- Events
-  3- Findings
-
-The fundamental unit of SDTMIG are the DOMAINS 
-  1- Interventions(SDTM) ::: SDTMIG DOMAINS: Concomital medications, Exposure, Substance use.
-  2- Events(SDTM) ::: SDTMIG DOMAINS: Adverse event, Disposition, Medical History, Protocol Deviation, Clinical Event
-  3- Findings(SDTM) ::: SDTMIG DOMAINS: ECG, Ihttps://www.sthda.com/english/wiki/fastqcr-an-r-package-facilitating-quality-controls-of-sequencing-data-for-large-numbers-of-samplesncl\Escl, Labs, Physical Exam, Pharmacokinetics concentrations, 
-Mycrobiology specimen, Questionnaire, SubjChar, Vital Sign, Drug Accountability, 
-Pharmacokinetics parameters, Microbiology Susceptibility. 
-
-There are also, other SPECIAL PURPOSE DATASETS (SDTM) ::: SDTMIG DOMAINS:  such as Demographics, Comments, 
-Subject elements (age, Gender, Weigth, Race..), Subject Visits, Familiar antecedents.
-They are SPECIFIC STANDARIZED STRUCTURES for representing additional information, that 
-would not otherwise fit into the general observation classes. 
-
-DOMAINS has 3 components_: 
- 1- SPECIFICATION TABLES: A list of subset of variables from the observation class to which the domain belongs
- 2- ASSUMPTIONS 
- 3- EXAMPLES
 
