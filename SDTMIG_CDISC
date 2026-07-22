@@ -31,7 +31,7 @@ DOMAINS has 3 components_:
                             https://www.cdisc.org/standards/foundational/sdtmig/sdtmig-v3-4
                            All domains are describe in a domain table.
                             Each column show
-                                    the variable,
+                                    the variable
                                     label
                                     data type
                                     Control terminology
@@ -53,3 +53,10 @@ DOMAINS has 3 components_:
                     or concepts described. 
                     be aware!!! The more complex concepts, may require the use of more than one 
                     domain to fully illustrate them. 
+
+
+
+#######################################################################################################
+
+
+########
