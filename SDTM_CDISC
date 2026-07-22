@@ -78,21 +78,43 @@ You will notice that variables as SDTM all begin with -- (This dashes are placeh
 --TSTDTL
 --CAT
 --SCAT
+###############################################################################################################
+
 
 Variables SDTM
-    Can be broken in 4 principal types 
+    Can be broken in 5 principal types 
     1- IDENTIFIER. Indicate d Subject, the record sequence, and other Identify information
+                    variables allow the study, subject, domain and sequence number of a record to be identified.
             Examples_: STUDYID, DOMAIN, SUBJID, --SEQ
     2- TOPIC VARIABLE: Contain the focus of the observation. Therefore this variables 
 are the primary difference in what separates the individual observation classes
             Examples_: --TRT, --TERM, --TESTCD
-    3- QUALIFIER: Providing additional information about the topic. They can be use to qualify 
+    3- QUALIFIER: variables describe the results of an observation with text or numeric values.
+Providing additional information about the topic. They can be use to qualify 
 the other variables whithin the record such as the results or the topic, or 
-they can qualify the entire record. 
+they can qualify the entire record.                
             Examples_: GROUPING, RESULT, SYNONYM, RECORD, VARIABLE
-    4- TIMING VARIABLE: Describe aspects of the timing of the observation 
+    4- TIMING VARIABLE: Describe aspects of the timing of the observatio. 
+                        variables describe the date, time, and duration of an observation.
             Examples_: DATE/TIMES, STUDY DAYs, DURATIONS, INTERVALS, VISITS, TIME POINTS, RELATIVE TIMES 
+    5- RULE: variables describe algorithms or methods for calculations or looping conditions and are mainly
+used for the Trial Design domain.
+            Examples_: TATRANS, –ENRL
 
 
+In the example below, variable roles are shown in the top row of the table.
+
+Identifier	Identifier	Qualifier	                        Topic	        Qualifier	Timing
+USUBJID	    MHSEQ	    MHCAT	                            MHTERM	        MHONGO	    VISITNUM
+199840	    1	        Nervous System Medical History	    Neuralgia	    N	        3
+199840	    2	        Nervous System Medical History	    Epilepsy	    Y	        3
+199840	    3	        Respiratory System Medical History	Laryngitis	    N	        3
+
+Qualifier variables are further categorized as follows:
+    Grouping       qualifiers group observations together.
+    Result         qualifiers describe the result for a finding.
+    Synonym        qualifiers contain another name for the observation.
+    Record         qualifiers define the supplementary attributes of an observation.
+    Variable       qualifiers describe the value of an observation.
 
 
