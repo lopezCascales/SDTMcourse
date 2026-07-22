@@ -15,6 +15,7 @@ Introduction to SDTM Implementation Guide
 https://www.youtube.com/watch?v=mI2jLx-ZEWE
 Introduction to SEND Implementation Guide
 
+https://www.certara.com/blog/everything-you-need-to-know-about-sdtm/
 
 
 
