@@ -1,1 +1,114 @@
 
+SDTM dataset creation and SDTM mapping
+
+So how do you implement SDTM?
+
+The following section explains how to map source datasets to SDTM domains, 
+as well as important considerations, and other necessary deliverables needed for SDTM dataset creation.
+
+###########################################################################################################
+
+What is SDTM mapping?
+
+The SDTMIG extends and refines the SDTM core model with specific domain implementations, business rules, 
+assumptions, and examples. It should be used along with the relevant version of SDTM. 
+So, make sure you have the correct versions of both of these documents.
+
+###########################################################################################################
+How do you create SDTM datasets?
+
+Here are some basic steps to help keep you on the right track with your SDTM dataset creation:
+
+    Determine which SDTM domains to create.
+    Compare the SDTM data to the SDTM metadata and map directly where possible.
+    Map the rest of the source datasets to SDTM domains.
+    Map variables in the source datasets to the variables in the SDTM domains.
+    Decide whether custom domains and SUPPQUAL domains need to be created.
+    Perform the data conversion – find out about our mapping and conversion tools designed to help you do this.
+    Validate the SDTM datasets.
+    Generate and validate Define.xml.
+###########################################################################################################
+
+Different types of SDTM mappings
+
+There are several different types of SDTM mappings you can do for steps 2, 3, and 4 above.
+
+    Directly map to a domain variable without making any changes.
+    Rename the source variable name and label without the need to make any other changes.
+    Map values to standard units or terminology.
+    Change the format of a source variable.
+    Combine two or more source variables to make a single domain variable.
+    Split a single source variable into two or more domain variables.
+    Derive a domain variable from one or more source variables using logic, computation, algorithm or decoding.
+
+Remember, you might need to use more than one type of mapping to create an SDTM variable.
+###########################################################################################################
+
+What is an SDTM mapping specification document?
+
+SDTM mapping can be a complicated task, so it’s important to plan everything out in advance. 
+By creating a mapping specification, you’ll know where data came from, how it got there, and where it’s to go to.
+
+The SDTM mapping specification is an important document that’s used when designing the process 
+by which raw data will be converted to SDTM. This document specifies how the raw data is to be converted and 
+is used by the SDTM programmer and testing team.
+###########################################################################################################
+
+How do you create an SDTM mapping specification document?
+
+    Examine the CRFs and raw data and identify which SDTM domains you need.
+    Against each SDTM domain, note which raw dataset will provide the input data.
+    Against each SDTM domain, list all variables and describe how they are to be programmed.
+###########################################################################################################
+
+It’s important to use the SDTM model and Implementation Guide during the SDTM mapping process. 
+Some organizations also enlist the help of data mapping software in order to maximize chances of success.
+
+SDTM mapping specifications should be developed at the same time as annotating case report forms (CRFs). 
+The mapping specification tells the user how to do a mapping. An annotated CRF is a visual representation of a 
+mapping showing how the source data relates to the SDTM data.
+
+###########################################################################################################
+
+What are SDTM annotated CRFs?
+
+As part of your submission to the FDA, you must provide a blank CRF. The file should be called blankcrf.pdf. 
+Each question on the form must be manually annotated to show the origin of variables.
+It links the fields on the form with the variables in the dataset (the source of the data).
+Annotations help the reviewer find where variables come from in the submitted SDTM datasets.
+###########################################################################################################
+
+
+What is SDTM controlled terminology?
+
+SDTM has standard code lists for particular variables, containing allowable values for these variables. 
+These allowable values should be used in submissions to the regulator, so ensure the SDTM datasets are CDISC compliant. 
+You should always use the most up to date version of controlled terminology when you start to map your SDTM datasets. 
+Find out more about using controlled terminology for standardizing data.
+
+CDISC and NCI Enterprise Vocabulary Services partnered up to develop a standard controlled terminology. 
+However, the CDISC / NCI controlled terms for Lab tests are not unique. 
+They require additional information for differentiation.
+
+Other medical dictionaries can be used, such as MedDRA and WHOdrug.
+###########################################################################################################
+
+What are LOINC codes?
+
+Over the last 25 years, the LOINC project has provided a standard classification for health measurements. 
+Most SDTM programmers will encounter ‘LOINC Code’ information in Lab data. But the classification system 
+has been extended to cover other measurements such as ECG.
+
+So, what is LOINC? LOINC is an internationally recognized classification system which is often requested 
+in regulatory data submissions to provide context to clinical measurement data, such as Labs and ECG.
+What is the SDTM Define-XML standard?
+
+The FDA requires a Define.xml file to be included for all drug submissions. 
+It describes the content and structure of data collected during the study which are 
+domains, variables, methods, controlled terminology, and supporting documents. 
+The Define.xml file makes the review of study data quicker and easier for the FDA.
+###########################################################################################################
+
+
+###########################################################################################################
+
