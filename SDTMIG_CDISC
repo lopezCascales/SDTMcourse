@@ -57,6 +57,26 @@ DOMAINS has 3 components_:
 
 
 #######################################################################################################
+What are SDTM core variables?
 
+Core variables are a measure of compliance with the specific SDTM-IG domain model. 
+The value of a core variable shows the importance of the variable to the overall domain structure.
 
-########
+Variables are divided into 3 categories:
+
+    Required              variables are needed to identify a data record, 
+                                    e.g STUDYID, and USUBJID. 
+                          Or, they are needed to make a record easily understood, 
+                                    e.g TERM and TEST. 
+                          They must always be included in the dataset and cannot be null.
+  
+    Expected              variables are needed to make a record useful within a specific domain. 
+                          They must always be included in the dataset but they can be null for some records. 
+                          If no data is collected, a comment must be included to explain why.
+    
+    Permissible           variables must be included in the dataset if results are collected or derived, 
+                          but they can be left null or blank.
+
+Variables from the parent class can also be inserted into the domain if required.
+
+#######################################################################################################
