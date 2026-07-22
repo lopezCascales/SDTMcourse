@@ -1,6 +1,6 @@
 
-One of the most important standards when it comes to clinical trial submission is the Analysis Data Model (ADaM). A
-DaM standards outline how to create analysis datasets and associated metadata. 
+One of the most important standards when it comes to clinical trial submission is the Analysis Data Model (ADaM). 
+ADaM standards outline how to create analysis datasets and associated metadata. 
 This allows a statistical programmer to generate figures, listings, and tables more easily and ensures 
 traceability, which means that reviewers can assess and approve a submission more quickly.
 ####################################################################################################
